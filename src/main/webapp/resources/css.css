@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+  margin: 10px 0px;
+}
+.radio-div,
+.radio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  padding: 3px 16px;
+  width: 60%;
+  font-size: 18px;
+}
+textarea {
+  resize: none;
+}
+#id {
+}
+h3 {
+  font-size: 25px;
+  padding: 15px;
+}
+hr {
+  margin: 20px 10px;
+}
+.radio {
+  margin: 0px 10px;
+}
+label {
+  font-weight: bold;
+  font-size: 16px;
+}
+label::after {
+  content: ":";
+}
+button {
+  font-size: 18px;
+  padding: 12px 25px;
+  margin-left: 18%;
+  margin-top: 20px;
+  background-color: #428bca;
+  color: white;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
